@@ -243,7 +243,7 @@ git commit -a -m &amp;quot;init commit&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 Now you have a local repository. In order to host that repo on Github, go to github.com and create a new repository by clicking the green “new” button in the top right. Don’t initialize a README file. Give your repo a name, for example “my_website”. Then click “Create repository” at the bottom.
 &lt;/p&gt;
 &lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/git-1.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/git-2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/git-version-control.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;
 In your terminal, run the following:
 &lt;/p&gt;
@@ -261,6 +261,7 @@ You can see my blogdown code repo &lt;a href=&#34;https://github.com/CaitlinCasa
 First you’ll need to create a new repo named &lt;em&gt;username.github.io&lt;/em&gt;. Don’t initialize it with a README file. To create my site, I created a repo using my Github user name ‘caitlincasar’ on Github called caitlincasar.github.io. You can see this repo &lt;a href=&#34;https://github.com/https://github.com/CaitlinCasar/CaitlinCasar.github.io&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
 &lt;/p&gt;
 &lt;/li&gt;
+&lt;img class=&#34;post&#34; src=&#34;images/git-2.png&#34;&gt;
 &lt;li&gt;
 &lt;p&gt;
 Next, initialize a repo in your public folder in your blogdown directory and push the repo to your github.io repo:

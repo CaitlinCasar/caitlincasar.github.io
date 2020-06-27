@@ -112,7 +112,7 @@ git commit -a -m "init commit"
 
 <img class="post" src="/Users/Caitlin/Desktop/website_files/blogdown/content/post/blogdown/images/git-1.png">
 
-<img class="post" src="/Users/Caitlin/Desktop/website_files/blogdown/content/post/blogdown/images/git-2.png">
+<img class="post" src="/Users/Caitlin/Desktop/website_files/blogdown/content/post/blogdown/images/git-version-control.png">
 
 
 <p>In your terminal, run the following: </p>
@@ -128,6 +128,7 @@ git push -u origin master
 <li>
 <p>First you'll need to create a new repo named *username.github.io*. Don't initialize it with a README file. To create my site, I created a repo using my Github user name 'caitlincasar' on Github called caitlincasar.github.io. You can see this repo [here](https://github.com/https://github.com/CaitlinCasar/CaitlinCasar.github.io){target="_blank"}.</p>
 </li>
+<img class="post" src="/Users/Caitlin/Desktop/website_files/blogdown/content/post/blogdown/images/git-2.png">
 <li>
 <p>Next, initialize a repo in your public folder in your blogdown directory and push the repo to your github.io repo:</p>
 </li>
