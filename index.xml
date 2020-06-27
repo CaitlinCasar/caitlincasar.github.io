@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Caitlin Casar</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.caitlincasar.com/</link>
+      <atom:link href="https://www.caitlincasar.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Caitlin Casar</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpg</url>
+      <url>https://www.caitlincasar.com/img/avatar.jpg</url>
       <title>Caitlin Casar</title>
-      <link>/</link>
+      <link>https://www.caitlincasar.com/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>/talk/example/</link>
+      <link>https://www.caitlincasar.com/talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>/talk/example/</guid>
+      <guid>https://www.caitlincasar.com/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -36,13 +36,13 @@
     
     <item>
       <title>Thermodynamic Modeling with CHNOSZ</title>
-      <link>/post/thermodynamic_modeling/</link>
+      <link>https://www.caitlincasar.com/post/thermodynamic_modeling/</link>
       <pubDate>Sat, 20 Jun 2020 21:14:16 -0500</pubDate>
-      <guid>/post/thermodynamic_modeling/</guid>
+      <guid>https://www.caitlincasar.com/post/thermodynamic_modeling/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://www.caitlincasar.com/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://www.caitlincasar.com/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://www.caitlincasar.com/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;
@@ -152,7 +152,7 @@ logQ &amp;lt;- reactions %&amp;gt;%
   geom_vline(xintercept = 0, linetype=&amp;quot;dotted&amp;quot;, color = &amp;quot;black&amp;quot;) + #add a vertical line at zero for reference 
   theme(legend.position = c(.1, .6), legend.text=element_text(size=8), legend.title = element_text(size=8, face=&amp;quot;bold&amp;quot;)) + #position the legend on the left 
   theme(legend.key.size =  unit(0.2, &amp;quot;in&amp;quot;)) #resize the legend to make it fit &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/thermodynamic_modeling/index_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.caitlincasar.com/post/thermodynamic_modeling/index_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Everything that plots to the right of the dotted line is exergonic, while everything to the left of the dotted line is endergonic. The most exergonic and therefore the most energetically favorable reactions occur with the mineral pyrolusite, followed by pyrite. If you’re curious which reactant was coupled to these minerals for each reaction, refer back to the reactions table above! 👩‍🔬&lt;/p&gt;
 &lt;a class=&#34;github-button&#34; href=&#34;https://github.com/CaitlinCasar/Casar2020_DeMMO_MineralHostedBiofilms&#34; data-icon=&#34;octicon-repo-forked&#34; aria-label=&#34;Fork ntkme/github-buttons on GitHub&#34;&gt;Fork Me&lt;/a&gt;
 &lt;script async defer src=&#34;https://buttons.github.io/buttons.js&#34;&gt;&lt;/script&gt;
@@ -161,9 +161,9 @@ logQ &amp;lt;- reactions %&amp;gt;%
     
     <item>
       <title>Create your own site with blogdown in R</title>
-      <link>/post/blogdown/</link>
+      <link>https://www.caitlincasar.com/post/blogdown/</link>
       <pubDate>Tue, 09 Jun 2020 21:14:16 -0500</pubDate>
-      <guid>/post/blogdown/</guid>
+      <guid>https://www.caitlincasar.com/post/blogdown/</guid>
       <description>
 
 
@@ -506,13 +506,13 @@ You should now be able to see your site when you navigate to your custom domain 
     
     <item>
       <title>Making figures for microbial ecology: Interactive NMDS plots</title>
-      <link>/post/making_figs_2/</link>
+      <link>https://www.caitlincasar.com/post/making_figs_2/</link>
       <pubDate>Mon, 01 Jun 2020 21:14:16 -0500</pubDate>
-      <guid>/post/making_figs_2/</guid>
+      <guid>https://www.caitlincasar.com/post/making_figs_2/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://www.caitlincasar.com/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://www.caitlincasar.com/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://www.caitlincasar.com/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;This is the one of several tutorials I’m putting together for making figures that are common in microbial ecology. Today we’ll create an interactive NMDS plot for exploring your microbial community data. NMDS, or Nonmetric Multidimensional Scaling, is a method for dimensionality reduction. This works great for high demensional datasets like microbial communities and makes it visually easy to compare lots of communities to each other. We’re using NMDS rather than PCA (principle coordinates analysis) because this method can accomodate the Bray-Curtis dissimilarity distance metric, which is better suited for our community data than Euclidean distance. For this tutorial I’m using data and code from my &lt;a href=&#34;https://caitlincasar.com/publication/casar2020/&#34;&gt;publication&lt;/a&gt; in &lt;em&gt;Geobiology&lt;/em&gt;.&lt;/p&gt;
@@ -567,13 +567,13 @@ ggplotly(NMDS_plot)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Making figures for microbial ecology: Interactive bar plots</title>
-      <link>/post/making_figs/</link>
+      <link>https://www.caitlincasar.com/post/making_figs/</link>
       <pubDate>Sun, 31 May 2020 21:14:16 -0500</pubDate>
-      <guid>/post/making_figs/</guid>
+      <guid>https://www.caitlincasar.com/post/making_figs/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://www.caitlincasar.com/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://www.caitlincasar.com/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://www.caitlincasar.com/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;a class=&#34;github-button&#34; href=&#34;https://github.com/CaitlinCasar/Casar2020_DeMMO_MineralHostedBiofilms&#34; data-icon=&#34;octicon-repo-forked&#34; aria-label=&#34;Fork ntkme/github-buttons on GitHub&#34;&gt;Fork&lt;/a&gt;
@@ -667,9 +667,9 @@ names(phylum_color) &amp;lt;- unique(taxon_abundance_table$taxonomy)&lt;/code&gt
     
     <item>
       <title>Mineral‐hosted biofilm communities in the continental deep subsurface, Deep Mine Microbial Observatory, SD, USA</title>
-      <link>/publication/casar2020/</link>
+      <link>https://www.caitlincasar.com/publication/casar2020/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/casar2020/</guid>
+      <guid>https://www.caitlincasar.com/publication/casar2020/</guid>
       <description>&lt;p&gt;Supplementary 
 &lt;a href=&#34;https://github.com/CaitlinCasar/Casar2020_DeMMO_MineralHostedBiofilms&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -677,17 +677,17 @@ names(phylum_color) &amp;lt;- unique(taxon_abundance_table$taxonomy)&lt;/code&gt
     
     <item>
       <title>Establishment of the Deep Mine Microbial Observatory (DeMMO), South Dakota, USA, a Geochemically Stable Portal Into the Deep Subsurface</title>
-      <link>/publication/osburn2019/</link>
+      <link>https://www.caitlincasar.com/publication/osburn2019/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/osburn2019/</guid>
+      <guid>https://www.caitlincasar.com/publication/osburn2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>/slides/example/</link>
+      <link>https://www.caitlincasar.com/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/slides/example/</guid>
+      <guid>https://www.caitlincasar.com/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
@@ -818,44 +818,26 @@ Three
     </item>
     
     <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms</title>
-      <link>/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/terms/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Biofilm Formation and Potential for Iron Cycling in Serpentinization-Influenced Groundwater of the Zambales and Coast Range Ophiolites</title>
-      <link>/publication/meyer-dombard2018/</link>
+      <link>https://www.caitlincasar.com/publication/meyer-dombard2018/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/meyer-dombard2018/</guid>
+      <guid>https://www.caitlincasar.com/publication/meyer-dombard2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>External Project</title>
-      <link>/project/external-project/</link>
+      <link>https://www.caitlincasar.com/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/external-project/</guid>
+      <guid>https://www.caitlincasar.com/project/external-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Internal Project</title>
-      <link>/project/internal-project/</link>
+      <link>https://www.caitlincasar.com/project/internal-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/internal-project/</guid>
+      <guid>https://www.caitlincasar.com/project/internal-project/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -866,13 +848,13 @@ Three
     
     <item>
       <title>About me</title>
-      <link>/about/about/</link>
+      <link>https://www.caitlincasar.com/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/about/about/</guid>
+      <guid>https://www.caitlincasar.com/about/about/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img alt=&#39;Caitlin&#39; width=300 style=&#39; border-radius: 50%;&#39; src=&#39;/about/avatar.jpg&#39; class=&#39;avatar-circle&#39; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#39;Caitlin&#39; width=300 style=&#39; border-radius: 50%;&#39; src=&#39;https://www.caitlincasar.com/about/avatar.jpg&#39; class=&#39;avatar-circle&#39; /&gt;&lt;/p&gt;
 &lt;p&gt;I’m Caitlin Casar, a PhD candidate insterested in astrobiology 👽 and data science 💾. I love coding, graphic design, and hanging out with my two cats, Creme Fraiche and Neko 🐱🐱.&lt;/p&gt;
 &lt;div id=&#34;education&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/h3&gt;
