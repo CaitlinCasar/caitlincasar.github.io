@@ -65,7 +65,7 @@ install.packages("blogdown")
 blogdown::install_hugo()
 ```
 
-4. <p>To generate the Hugo academic theme template site, run the following line in your RStudio console.</p>
+4. <p>To generate the Hugo academic theme template site, run the following line in your RStudio console. </p>
 
 ```{r, eval=F}
 blogdown::new_site(theme = 'gcushen/hugo-academic')
