@@ -20,7 +20,7 @@
       <description>
 
 
-&lt;p&gt;&lt;img alt=&#39;Caitlin&#39; width=300 style=&#39; border-radius: 50%;&#39; src=&#39;../about/avatar.jpg&#39; class=&#39;avatar-circle&#39; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#39;Caitlin&#39; width=300 style=&#39; border-radius: 50%;&#39; src=&#39;/about/avatar.jpg&#39; class=&#39;avatar-circle&#39; /&gt;&lt;/p&gt;
 &lt;p&gt;I’m Caitlin Casar, a PhD candidate insterested in astrobiology 👽 and data science 💾. I love coding, graphic design, and hanging out with my two cats, Creme Fraiche and Neko 🐱🐱.&lt;/p&gt;
 &lt;div id=&#34;education&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/h3&gt;

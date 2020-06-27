@@ -18,9 +18,9 @@
       <pubDate>Sat, 20 Jun 2020 21:14:16 -0500</pubDate>
       <guid>/post/thermodynamic_modeling/</guid>
       <description>
-&lt;script src=&#34;../rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;../rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;../rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;
@@ -130,7 +130,7 @@ logQ &amp;lt;- reactions %&amp;gt;%
   geom_vline(xintercept = 0, linetype=&amp;quot;dotted&amp;quot;, color = &amp;quot;black&amp;quot;) + #add a vertical line at zero for reference 
   theme(legend.position = c(.1, .6), legend.text=element_text(size=8), legend.title = element_text(size=8, face=&amp;quot;bold&amp;quot;)) + #position the legend on the left 
   theme(legend.key.size =  unit(0.2, &amp;quot;in&amp;quot;)) #resize the legend to make it fit &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;../post/thermodynamic_modeling/index_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/thermodynamic_modeling/index_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Everything that plots to the right of the dotted line is exergonic, while everything to the left of the dotted line is endergonic. The most exergonic and therefore the most energetically favorable reactions occur with the mineral pyrolusite, followed by pyrite. If you’re curious which reactant was coupled to these minerals for each reaction, refer back to the reactions table above! 👩‍🔬&lt;/p&gt;
 &lt;a class=&#34;github-button&#34; href=&#34;https://github.com/CaitlinCasar/Casar2020_DeMMO_MineralHostedBiofilms&#34; data-icon=&#34;octicon-repo-forked&#34; aria-label=&#34;Fork ntkme/github-buttons on GitHub&#34;&gt;Fork Me&lt;/a&gt;
 &lt;script async defer src=&#34;https://buttons.github.io/buttons.js&#34;&gt;&lt;/script&gt;
@@ -465,7 +465,7 @@ Pull your domain name changes from your Github repo to your local repo, commit a
 cd ~/Desktop/blogdown_site/public
 
 #pull in your remote domain name changes from Github 
-git pull
+git pull 
 
 #add any new files
 git add .
@@ -488,9 +488,9 @@ You should now be able to see your site when you navigate to your custom domain 
       <pubDate>Mon, 01 Jun 2020 21:14:16 -0500</pubDate>
       <guid>/post/making_figs_2/</guid>
       <description>
-&lt;script src=&#34;../rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;../rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;../rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;This is the one of several tutorials I’m putting together for making figures that are common in microbial ecology. Today we’ll create an interactive NMDS plot for exploring your microbial community data. NMDS, or Nonmetric Multidimensional Scaling, is a method for dimensionality reduction. This works great for high demensional datasets like microbial communities and makes it visually easy to compare lots of communities to each other. We’re using NMDS rather than PCA (principle coordinates analysis) because this method can accomodate the Bray-Curtis dissimilarity distance metric, which is better suited for our community data than Euclidean distance. For this tutorial I’m using data and code from my &lt;a href=&#34;https://caitlincasar.com/publication/casar2020/&#34;&gt;publication&lt;/a&gt; in &lt;em&gt;Geobiology&lt;/em&gt;.&lt;/p&gt;
@@ -549,9 +549,9 @@ ggplotly(NMDS_plot)&lt;/code&gt;&lt;/pre&gt;
       <pubDate>Sun, 31 May 2020 21:14:16 -0500</pubDate>
       <guid>/post/making_figs/</guid>
       <description>
-&lt;script src=&#34;../rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;../rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;../rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;a class=&#34;github-button&#34; href=&#34;https://github.com/CaitlinCasar/Casar2020_DeMMO_MineralHostedBiofilms&#34; data-icon=&#34;octicon-repo-forked&#34; aria-label=&#34;Fork ntkme/github-buttons on GitHub&#34;&gt;Fork&lt;/a&gt;

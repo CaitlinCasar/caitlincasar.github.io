@@ -18,9 +18,9 @@
       <pubDate>Mon, 01 Jun 2020 21:14:16 -0500</pubDate>
       <guid>/post/making_figs_2/</guid>
       <description>
-&lt;script src=&#34;../../rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;../../rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;../../rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;This is the one of several tutorials I’m putting together for making figures that are common in microbial ecology. Today we’ll create an interactive NMDS plot for exploring your microbial community data. NMDS, or Nonmetric Multidimensional Scaling, is a method for dimensionality reduction. This works great for high demensional datasets like microbial communities and makes it visually easy to compare lots of communities to each other. We’re using NMDS rather than PCA (principle coordinates analysis) because this method can accomodate the Bray-Curtis dissimilarity distance metric, which is better suited for our community data than Euclidean distance. For this tutorial I’m using data and code from my &lt;a href=&#34;https://caitlincasar.com/publication/casar2020/&#34;&gt;publication&lt;/a&gt; in &lt;em&gt;Geobiology&lt;/em&gt;.&lt;/p&gt;

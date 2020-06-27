@@ -340,7 +340,7 @@ Pull your domain name changes from your Github repo to your local repo, commit a
 cd ~/Desktop/blogdown_site/public
 
 #pull in your remote domain name changes from Github 
-git pull
+git pull 
 
 #add any new files
 git add .
