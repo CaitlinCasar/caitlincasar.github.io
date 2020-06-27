@@ -3,11 +3,16 @@ title: "Create your own site with blogdown in R"
 author: "Caitlin"
 date: 2020-06-09T21:14:16-05:00
 output: html_document
-thumbnail: "bar_plot.jpg"
+thumbnail: "featured.png"
 categories: ["R"]
 tags: ["blogdown", "git", "github", "hugo"]
-twitterImg: /images/barplot.jpeg
+twitterImg: featured.png
 description: "Learn to create your own blog site."
+featured: yes
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
 ---
 
 Wanna create and host your own site for free? I'll show you how I created and hosted my site caitlincasar.com! We'll go over the two basic tools I used: the [blogdown](https://bookdown.org/yihui/blogdown/){target="_blank"} package in R and [Github Pages](https://pages.github.com/){target="_blank"}.
