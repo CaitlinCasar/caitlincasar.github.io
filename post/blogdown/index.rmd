@@ -326,7 +326,7 @@ Note:
 cd ~/Desktop/blogdown_site/public
 
 #pull in your remote domain name changes from Github 
-git pull
+git pull 
 
 #add any new files
 git add .
