@@ -331,7 +331,6 @@ git commit -a -m "adding Caitlin's new blog post"
 #push the changes to the Github server
 git push
 ```
-```
 
 <p>You should now be able to see your site when you navigate to your custom domain in your web browser. Congrats on creating and hosting your own site! Feel free to comment below with any comments/questions `r emo::ji("sunglasses")`</p>
 

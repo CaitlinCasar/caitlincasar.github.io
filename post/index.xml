@@ -474,7 +474,6 @@ git commit -a -m &amp;quot;adding Caitlin&amp;#39;s new blog post&amp;quot;
 
 #push the changes to the Github server
 git push&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;```&lt;/p&gt;
 &lt;p&gt;
 You should now be able to see your site when you navigate to your custom domain in your web browser. Congrats on creating and hosting your own site! Feel free to comment below with any comments/questions 😎
 &lt;/p&gt;
