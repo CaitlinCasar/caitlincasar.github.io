@@ -434,19 +434,37 @@ Next, go to your google domains account and select ‘my domains’ on the left 
 &lt;/ol&gt;
 &lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/google-domains-mydomains.png&#34;&gt;&lt;/p&gt;
 &lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Click on ‘DNS’ on the left side panel. Then select ‘Use the Google Domains name servers’. Then click the blue ‘save’ button.&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;
+Click on ‘DNS’ on the left side panel. Then select ‘Use the Google Domains name servers’. Then click the blue ‘save’ button.
+&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/google-domains-nameservers.png&#34;&gt;&lt;/p&gt;
 &lt;ol start=&#34;6&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Scroll to the bottom of the page and create an alias for your domain, then click the blue ‘Add’ button. You can use one of four IP addresses for Github:&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;
+Scroll to the bottom of the page and create an alias for your domain, then click the blue ‘Add’ button. You can use one of four IP addresses for Github:
+&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;pre&gt;&lt;code&gt;185.199.108.153
 185.199.109.153
 185.199.110.153
 185.199.111.153&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/google-domains-alias.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;i&gt;
+&lt;strong&gt;
+Note:
+&lt;/strong&gt;
+Github Pages recommends creating a CNAME record which I didn’t do. For more info on this, see their documentation &lt;a href=&#34;https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
+&lt;/i&gt;
+&lt;/p&gt;
+&lt;p&gt;
+You should create a record for both your root domain (caitlincasar.com) and your www subdomain (www.caitlincasar.com).
+&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/google-domains-dnsrecords.png&#34;&gt;&lt;/p&gt;
 &lt;ol start=&#34;7&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Finally, we’ll need to update the domain name on Github. Navigate to your username.github.io repo, then select ‘Settings’.&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;
+Finally, we’ll need to update the domain name on Github. Navigate to your username.github.io repo, then select ‘Settings’.
+&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/github-settings.png&#34;&gt;&lt;/p&gt;
 &lt;ol start=&#34;8&#34; style=&#34;list-style-type: decimal&#34;&gt;
@@ -454,6 +472,14 @@ Next, go to your google domains account and select ‘my domains’ on the left 
 Scroll down to the Github Pages section and enter your custom domain name. It make take a few hours for your new domain name to register, after which you’ll be able to check the box under ‘Enforce HTTPS’. This enables https encryption on your site to prevent &lt;a href=&#34;https://www.csoonline.com/article/3340117/what-is-a-man-in-the-middle-attack-how-mitm-attacks-work-and-how-to-prevent-them.html&#34; target=&#34;_blank&#34;&gt;man-in-the-middle attacks&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/github-customdomain.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;i&gt;
+&lt;strong&gt;
+Note:
+&lt;/strong&gt;
+I ran into an issue where only my root domain caitlincasar.com had HTTPS enabled, and my www subdomain was not secure. To fix this, I deleted caitlincasar.com from my custom domain on my Github repo. Then I entered www.caitlincasar.com as my custom domain, then re-enabled HTTPS. This enabled HTTPS on both the root and www subdomain. This seems to be some sort of bug that I found referenced &lt;a href=&#34;https://github.community/t/does-github-pages-support-https-for-www-and-subdomains/10360/14&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, and there are multiple solutions for dealing with it.
+&lt;/i&gt;
+&lt;/p&gt;
 &lt;p&gt;
 You should now be able to see your site when you navigate to your custom domain in your web browser. Congrats on creating and hosting your own site! Feel free to comment below with any comments/questions 😎
 &lt;/p&gt;
