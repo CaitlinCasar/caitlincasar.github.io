@@ -130,7 +130,7 @@ git push -u origin master
 </li>
 <img class="post" src="/Users/Caitlin/Desktop/website_files/blogdown/content/post/blogdown/images/git-2.png">
 <li>
-<p>Next, initialize a repo in your public folder in your blogdown directory and push the repo to your github.io repo:</p>
+<p>Next, initialize a repo in your public folder in your blogdown directory and push the repo to your github.io repo: </p>
 </li>
 </ul>
 ```{bash, eval=F}
