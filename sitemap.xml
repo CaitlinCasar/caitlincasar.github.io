@@ -23,7 +23,47 @@
   
   <url>
     <loc>https://www.caitlincasar.com/categories/</loc>
-    <lastmod>2020-06-20T21:14:16-05:00</lastmod>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.caitlincasar.com/tag/css/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.caitlincasar.com/tag/html/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.caitlincasar.com/tag/javascript/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.caitlincasar.com/post/revealjs/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.caitlincasar.com/post/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.caitlincasar.com/category/r/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.caitlincasar.com/tag/revealjs/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.caitlincasar.com/tags/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,21 +73,6 @@
   
   <url>
     <loc>https://www.caitlincasar.com/tag/ggplot/</loc>
-    <lastmod>2020-06-20T21:14:16-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.caitlincasar.com/post/</loc>
-    <lastmod>2020-06-20T21:14:16-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.caitlincasar.com/category/r/</loc>
-    <lastmod>2020-06-20T21:14:16-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.caitlincasar.com/tags/</loc>
     <lastmod>2020-06-20T21:14:16-05:00</lastmod>
   </url>
   
