@@ -165,9 +165,7 @@ git push -u origin master
 
 ## Create a new post
 
-<p>We're finally ready to create a new post! If you cloned the NUEarthGrads repo, open that folder and double click on the blogdown.Rproj file to open the project in RStudio.</p>
-
-<p>Run the following in your RStudio console:</p>
+<p>We're finally ready to create a new post! Run the following in your RStudio console:</p>
 ```{r, eval=F}
 #run the blogdown new_post function to generate a new markdown file in the post directory with today's date
 blogdown::new_post(title = "my blog post title", subdir="post/my_blog_post_directory", date = "June 9 2020")

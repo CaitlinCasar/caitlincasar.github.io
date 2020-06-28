@@ -298,10 +298,7 @@ To view your site, go to &lt;a href=&#34;https://username.github.io/&#34; class=
 &lt;div id=&#34;create-a-new-post&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Create a new post&lt;/h2&gt;
 &lt;p&gt;
-We’re finally ready to create a new post! If you cloned the NUEarthGrads repo, open that folder and double click on the blogdown.Rproj file to open the project in RStudio.
-&lt;/p&gt;
-&lt;p&gt;
-Run the following in your RStudio console:
+We’re finally ready to create a new post! Run the following in your RStudio console:
 &lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#run the blogdown new_post function to generate a new markdown file in the post directory with today&amp;#39;s date
 blogdown::new_post(title = &amp;quot;my blog post title&amp;quot;, subdir=&amp;quot;post/my_blog_post_directory&amp;quot;, date = &amp;quot;June 9 2020&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
