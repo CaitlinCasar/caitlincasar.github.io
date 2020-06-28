@@ -28,7 +28,6 @@ Today I’ll show you how to spice up your presentations with &lt;a href=&#34;ht
 &lt;p&gt;
 This presentation was a lot of fun to make! Here I’ll show you the basics, then I’ll give examples of more advanced stuff you can do.
 &lt;/p&gt;
-&lt;p&gt;blah&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;&lt;p&gt;
 First, we need to get set up to use revealjs in R. Open RStudio and run the following in your console:
