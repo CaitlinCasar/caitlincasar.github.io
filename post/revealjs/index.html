@@ -1,0 +1,1331 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Today I’ll show you how to spice up your presentations with revealJS in R. This is an HTML presentation framework that allows you to share your slides on the web, add custom animations, embed websites into your slides, and more!">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/revealjs/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="rgba(255,202,51, 1)">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131131266-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-131131266-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu65d040ff31842b946eaf5b8caef82e07_3065_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu65d040ff31842b946eaf5b8caef82e07_3065_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/post/revealjs/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@DeepSubsurfer">
+  <meta property="twitter:creator" content="@DeepSubsurfer">
+  
+  <meta property="og:site_name" content="Caitlin Casar">
+  <meta property="og:url" content="/post/revealjs/">
+  <meta property="og:title" content="Making beautiful interactive slides with revealJS | Caitlin Casar">
+  <meta property="og:description" content="Today I’ll show you how to spice up your presentations with revealJS in R. This is an HTML presentation framework that allows you to share your slides on the web, add custom animations, embed websites into your slides, and more!"><meta property="og:image" content="/post/revealjs/featured.png">
+  <meta property="twitter:image" content="/post/revealjs/featured.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-06-28T21:14:16-05:00">
+    
+    <meta property="article:modified_time" content="2020-06-28T21:14:16-05:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/revealjs/"
+  },
+  "headline": "Making beautiful interactive slides with revealJS",
+  
+  "image": [
+    "/post/revealjs/featured.png"
+  ],
+  
+  "datePublished": "2020-06-28T21:14:16-05:00",
+  "dateModified": "2020-06-28T21:14:16-05:00",
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Caitlin Casar",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/logo_hu72029ba191613179bebc9dcbb012e0bd_27617_192x192_fit_lanczos_2.png"
+    }
+  },
+  "description": "Today I’ll show you how to spice up your presentations with revealJS in R. This is an HTML presentation framework that allows you to share your slides on the web, add custom animations, embed websites into your slides, and more!"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+<script>
+        var waitForPlotly = setInterval( function() {
+            if( typeof(window.Plotly) !== "undefined" ){
+                MathJax.Hub.Config({ SVG: { font: "STIX-Web" }, displayAlign: "center" });
+                MathJax.Hub.Queue(["setRenderer", MathJax.Hub, "SVG"]);
+                clearInterval(waitForPlotly);
+            }}, 250 );
+</script>
+
+
+
+  <title>Making beautiful interactive slides with revealJS | Caitlin Casar</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/index.html"><img src="https://www.pizzanecklaces.com/wp-content/uploads/2019/12/split.gif" alt="Caitlin Casar">
+        <span class="text">Caitlin Casar</span>  
+        </a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Caitlin Casar</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/about/about/index.html"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/index.html#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/index.html#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/index.html#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/Casar_CV_May2020.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      <li class="nav-item">
+        <a href="https://www.buymeacoffee.com/aArveHBGx" target="_blank">
+          <i class="fas fa-coffee coffee"></i>
+        </a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector">
+          <i class="fas fa-moon js-set-theme-dark"></i>
+          <i class="fas fa-sun js-set-theme-light"></i>
+        </a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Making beautiful interactive slides with revealJS</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jun 28, 2020
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/css/">css</a>, <a href="/category/html/">html</a>, <a href="/category/javascript/">javascript</a>, <a href="/category/r/">R</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 450px;">
+  <div style="position: relative">
+    <img src="/post/revealjs/featured_hud57ad94822ceb22f2b96163f1c74d3f7_120711_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+
+<p>
+Today I’ll show you how to spice up your presentations with <a href="https://github.com/rstudio/revealjs" target="_blank">revealJS</a> in R. This is an HTML presentation framework that allows you to share your slides on the web, add custom animations, embed websites into your slides, and more! Here’s an example of a presentation I made for my 2020 Spring Committee Meeting:
+</p>
+<iframe src="SpringCommitteeMeeting2020/revealjs.html" width="100%" height="500" style="border: none;">
+</iframe>
+<p>
+This presentation was a lot of fun to make! Here I’ll show you the basics, then I’ll give examples of more advanced stuff you can do.
+</p>
+<ol style="list-style-type: decimal">
+<li><p>
+First, we need to get set up to use revealjs in R. Open RStudio and run the following in your console:
+</p></li>
+</ol>
+<pre class="r"><code>install.packages(&quot;revealjs&quot;, type = &quot;source&quot;)</code></pre>
+<p><img class="post" src="images/install.png"></p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>
+Next, open up a new R markdown document.
+</p></li>
+</ol>
+<p><img class="post" src="images/new-file.png"></p>
+<ol start="3" style="list-style-type: decimal">
+<li><p>
+Select the HTML output in the pop-up window and give your document a title.
+</p></li>
+</ol>
+<p><img class="post" src="images/new-presentation.png"></p>
+<ol start="4" style="list-style-type: decimal">
+<li><p>
+Then modify your header content. To make my slides in the example above, I used this header:
+</p></li>
+</ol>
+<pre class="r"><code>---
+output: 
+  revealjs::revealjs_presentation:
+    transition: default
+    self_contained: false
+    reveal_plugins: notes
+    css: styles.css
+    center: true
+    mathjax: NULL
+---</code></pre>
+<p><img class="post" src="images/yaml.png"></p>
+<p>
+Here’s a breakdown of those parameters:
+</p>
+<ul>
+<li><p>
+<strong>Output</strong> indicates that you want a revealjs output.
+</p></li>
+<li><p>
+<strong>Transition</strong> sets your slide transitions. You can choose from “default”, “fade”, “slide”, “convex”, “concave”, “zoom” or “none”.
+</p></li>
+<li><p>
+<strong>Self contained</strong> determines whether dependencies are external or internal. To use plugins this has to be set to false.
+</p></li>
+<li><p>
+<strong>Reveal plugins</strong> enable plugins including notes, zoom, search, and chalkboard. The notes plugin functions much like presenter mode in Powerpoint.
+</p></li>
+<li><p>
+<strong>CSS</strong> is your custom styles CSS (cascading style sheet) file. This allows you to add styling to HTML elements, such as font color, add animations, and more.
+</p></li>
+<li><p>
+<strong>Center</strong> sets all of your slides to center text alignment. You can set the alignment on individual slides as well.
+</p></li>
+<li><p>
+<strong>Mathjax</strong> enables rendering of LaTeX and MathML equations including special characters like greek symbols. Options include default, local, and NULL.
+</p></li>
+</ul>
+<ol start="5" style="list-style-type: decimal">
+<li>Now, lets add some slides!:</li>
+</ol>
+<pre class="r"><code>---
+output: 
+  revealjs::revealjs_presentation:
+    transition: default
+    self_contained: false
+    reveal_plugins: notes
+    css: styles.css
+    center: true
+    mathjax: NULL
+---
+
+# This is my title slide
+
+# This is Section 1
+
+## This is the first slide in Section 1
+
+# This is Section 2
+
+## This is the first slide in Section 2</code></pre>
+<p>
+Once your slides are ready, click the Knit button to build the html output and preview your slides!
+</p>
+<p><img class="post" src="images/knit.png"></p>
+<p>
+The code above produces the following slides:
+</p>
+<iframe src="example_slides/example1.html" width="100%" height="500" style="border: none;">
+</iframe>
+<ol start="6" style="list-style-type: decimal">
+<li><p>
+Let’s add some style to the slides. We can add a background color, background image, or embed an html file as the background! Be aware of potential securtiy issues when embedding an external website - you should only do this if you trust the site! Here, I added different types of backgrounds on each slide, including image, video, html, and color:
+</p></li>
+</ol>
+<pre class="html"><code>---
+output: 
+  revealjs::revealjs_presentation:
+    transition: default
+    self_contained: false
+    reveal_plugins: notes
+    css: styles.css
+    center: true
+    mathjax: NULL
+---
+
+# {data-background=&quot;https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500&quot;}
+
+&lt;h1 style=&quot;color: #fff&quot;&gt;Caitlin&#39;s Presentation&lt;/h1&gt;
+
+# {data-background=#262626}
+
+&lt;h1 style=&quot;color: #fff&quot;&gt;Check out my website&lt;/h1&gt;
+
+## {data-background-iframe=&quot;https://www.caitlincasar.com&quot;}
+
+# Check out this video I made 
+
+## 
+&lt;iframe width=&quot;100%&quot; height=&quot;500&quot; src=&quot;https://www.youtube.com/embed/FZ66_XqZZhg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+## {data-background-video=&quot;AreWeAlone_Corrected.mp4&quot;}</code></pre>
+<iframe src="example_slides/example2.html" width="100%" height="500" style="border: none;">
+</iframe>
+<p>
+<strong>Note:</strong> This example doesn’t include the last slide in the example Rmarkdown above due to file size limits on Github where I host my content.
+</p>
+<ol start="7" style="list-style-type: decimal">
+<li><p>
+Let’s add some fun styling with CSS! Open a new text file and name it styles.css. Save this in the same directory as your Rmarkdown file.
+<p></li>
+</ol>
+<p><img class="post" src="images/text-file.png"></p>
+<p>
+Add some styling to the h1 element - these are the headers in your slide. Here, I’m changing the font color and adding a cool animation.
+</p>
+<pre class="css"><code>.present .tracking-in-expand {
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h1 {
+    color: #262626;
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+            animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+}</code></pre>
+<p><img class="post" src="images/styles.png"></p>
+<p>
+This is the Rmarkdown content I used to produce the slide below:
+</p>
+<pre class="r"><code>---
+output: 
+  revealjs::revealjs_presentation:
+    transition: default
+    self_contained: false
+    reveal_plugins: notes
+    css: styles.css
+    center: true
+    mathjax: NULL
+---
+
+# {data-background=#262626}
+
+&lt;h1 style=&quot;color: #fff&quot;&gt;Caitlin&#39;s Presentation&lt;/h1&gt;</code></pre>
+<iframe src="example_slides/example3/example3.html" width="100%" height="500" style="border: none;">
+</iframe>
+<p>
+Here’s an example where I used both custom CSS and a custom html header:
+</p>
+<pre class="css"><code>@-webkit-keyframes color-change-5x {
+  0% {
+    color: #19dcea;
+  }
+  25% {
+    color: #b22cff;
+  }
+  50% {
+    color: #ea2222;
+  }
+  75% {
+    color: #f5be10;
+  }
+  100% {
+    color: #3bd80d;
+  }
+}
+@keyframes color-change-5x {
+  0% {
+    color: #19dcea;
+  }
+  25% {
+    color: #b22cff;
+  }
+  50% {
+    color: #ea2222;
+  }
+  75% {
+    color: #f5be10;
+  }
+  100% {
+    color: #3bd80d;
+  }
+}
+
+
+#title h1 {
+    font-size: 1.50em;
+    color: #ffff00;
+    font-family: &#39;Roboto&#39;, sans-serif !important;
+        -webkit-animation: color-change-5x 8s linear infinite alternate both;
+            animation: color-change-5x 8s linear infinite alternate both;
+}       
+
+.color-change-5x-background {
+    -webkit-animation: color-change-5x-background 2s linear infinite alternate both;
+            animation: color-change-5x-background 2s linear infinite alternate both;
+}
+
+
+@-webkit-keyframes color-change-5x-background {
+  0% {
+    background: #19dcea;
+  }
+  25% {
+    background: #b22cff;
+  }
+  50% {
+    background: #ea2222;
+  }
+  75% {
+    background: #f5be10;
+  }
+  100% {
+    background: #3bd80d;
+  }
+}
+@keyframes color-change-5x-background {
+  0% {
+    background: #19dcea;
+  }
+  25% {
+    background: #b22cff;
+  }
+  50% {
+    background: #ea2222;
+  }
+  75% {
+    background: #f5be10;
+  }
+  100% {
+    background: #3bd80d;
+  }
+}</code></pre>
+<p><img class="post" src="images/styles.png"></p>
+<p>
+I added custom font from Google fonts by creating a new text file called header.html and adding this to the file:
+</p>
+<pre class="html"><code>&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Roboto:wght@900&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;</code></pre>
+<p>
+This is the Rmarkdown file I used to produce the slides below:
+</p>
+<pre class="r"><code>---
+output: 
+  revealjs::revealjs_presentation:
+    transition: default
+    self_contained: false
+    reveal_plugins: notes
+    css: styles.css
+    in_header: header.html
+    center: true
+    mathjax: NULL
+---
+
+# {#title data-background=#262626}
+
+&lt;h1 style=&quot;color: #fff&quot;&gt;Caitlin&#39;s Presentation&lt;/h1&gt;
+
+# Rainbow background! {.color-change-5x-background}</code></pre>
+<iframe src="example_slides/example4/example4.html" width="100%" height="500" style="border: none;">
+</iframe>
+<p>
+As you can see, there’s a ton of cool stuff you can do with revealjs! Check out the <a href="https://github.com/rstudio/revealjs" target="_blank">official documentation</a> for more information, and check out <a href="https://github.com/rstudio/revealjs" target="_blank">this guide</a> for more info on Rmarkdown.
+</p>
+<p>
+Congrats on making awesome slides in revealjs! 😎 Feel free to comment below with any comments/questions!
+</p>
+
+    </div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/revealjs/">revealjs</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+    
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/author/avatar_hu22b40f80507c44dce75a10e55d535ea1_60925_270x270_fill_q90_lanczos_center.jpg" alt="">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="/"></a></h5>
+        
+        
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/DeepSubsurfer" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?hl=en&amp;user=z1eLutEAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/caitlincasar" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+<section id="comments">
+  
+    <div id="commento"></div>
+
+<script src="https://cdn.commento.io/js/commento.js" defer></script>
+
+  
+</section>
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+
+
+ 
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

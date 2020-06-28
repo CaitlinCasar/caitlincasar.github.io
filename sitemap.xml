@@ -3,221 +3,256 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.caitlincasar.com/about/</loc>
+    <loc>/about/</loc>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/</loc>
+    <loc>/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/talk/example/</loc>
+    <loc>/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/talk/</loc>
+    <loc>/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/categories/</loc>
+    <loc>/categories/</loc>
+    <lastmod>2020-06-28T21:14:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/css/</loc>
+    <lastmod>2020-06-28T21:14:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/html/</loc>
+    <lastmod>2020-06-28T21:14:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/javascript/</loc>
+    <lastmod>2020-06-28T21:14:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/revealjs/</loc>
+    <lastmod>2020-06-28T21:14:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-06-28T21:14:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/r/</loc>
+    <lastmod>2020-06-28T21:14:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/revealjs/</loc>
+    <lastmod>2020-06-28T21:14:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-06-28T21:14:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/chnosz/</loc>
     <lastmod>2020-06-20T21:14:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/tag/chnosz/</loc>
+    <loc>/tag/ggplot/</loc>
     <lastmod>2020-06-20T21:14:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/tag/ggplot/</loc>
+    <loc>/post/thermodynamic_modeling/</loc>
     <lastmod>2020-06-20T21:14:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/post/</loc>
+    <loc>/tag/tidyverse/</loc>
     <lastmod>2020-06-20T21:14:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/category/r/</loc>
-    <lastmod>2020-06-20T21:14:16-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.caitlincasar.com/tags/</loc>
-    <lastmod>2020-06-20T21:14:16-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.caitlincasar.com/post/thermodynamic_modeling/</loc>
-    <lastmod>2020-06-20T21:14:16-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.caitlincasar.com/tag/tidyverse/</loc>
-    <lastmod>2020-06-20T21:14:16-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.caitlincasar.com/tag/blogdown/</loc>
+    <loc>/tag/blogdown/</loc>
     <lastmod>2020-06-09T21:14:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/post/blogdown/</loc>
+    <loc>/post/blogdown/</loc>
     <lastmod>2020-06-09T21:14:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/tag/git/</loc>
+    <loc>/tag/git/</loc>
     <lastmod>2020-06-09T21:14:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/tag/github/</loc>
+    <loc>/tag/github/</loc>
     <lastmod>2020-06-09T21:14:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/tag/hugo/</loc>
+    <loc>/tag/hugo/</loc>
     <lastmod>2020-06-09T21:14:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/post/making_figs_2/</loc>
+    <loc>/post/making_figs_2/</loc>
     <lastmod>2020-06-01T21:14:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/tag/plotly/</loc>
+    <loc>/tag/plotly/</loc>
     <lastmod>2020-06-01T21:14:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/tag/vegan/</loc>
+    <loc>/tag/vegan/</loc>
     <lastmod>2020-06-01T21:14:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/post/making_figs/</loc>
+    <loc>/post/making_figs/</loc>
     <lastmod>2020-05-31T21:14:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/publication-type/2/</loc>
+    <loc>/publication-type/2/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/tag/astrobiology/</loc>
+    <loc>/tag/astrobiology/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/tag/biofilms/</loc>
+    <loc>/tag/biofilms/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/tag/geobiology/</loc>
+    <loc>/tag/geobiology/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/publication/casar2020/</loc>
+    <loc>/publication/casar2020/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/publication_types/</loc>
+    <loc>/publication_types/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/publication/</loc>
+    <loc>/publication/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/publication/osburn2019/</loc>
+    <loc>/publication/osburn2019/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/tag/geochemistry/</loc>
+    <loc>/tag/geochemistry/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/slides/</loc>
+    <loc>/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/slides/example/</loc>
+    <loc>/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/publication/meyer-dombard2018/</loc>
+    <loc>/privacy/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/terms/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/meyer-dombard2018/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/tag/cromo/</loc>
+    <loc>/tag/cromo/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/tag/deep-learning/</loc>
+    <loc>/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/tag/demo/</loc>
+    <loc>/tag/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/project/external-project/</loc>
+    <loc>/project/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/project/internal-project/</loc>
+    <loc>/project/internal-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/project/</loc>
+    <loc>/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/author/</loc>
+    <loc>/author/</loc>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/about/about/</loc>
+    <loc>/about/about/</loc>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/authors/</loc>
+    <loc>/authors/</loc>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/author/casar-c.-p.-kruger-b.-k.-flynn-t.-m.-masterson-a.-l.-momper-l.-m.-osburn-m.-r./</loc>
+    <loc>/author/casar-c.-p.-kruger-b.-k.-flynn-t.-m.-masterson-a.-l.-momper-l.-m.-osburn-m.-r./</loc>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/author/meyer-dombard-d.-r.-casar-c.-p.-simon-a.-g.-cardace-d.-schrenk-m.-o.-arcilla-c.-a./</loc>
+    <loc>/author/meyer-dombard-d.-r.-casar-c.-p.-simon-a.-g.-cardace-d.-schrenk-m.-o.-arcilla-c.-a./</loc>
   </url>
   
   <url>
-    <loc>https://www.caitlincasar.com/author/osburn-m.-r.-kruger-b.-k.-masterson-a.-l.-casar-c.-p.-amend-j.-p./</loc>
+    <loc>/author/osburn-m.-r.-kruger-b.-k.-masterson-a.-l.-casar-c.-p.-amend-j.-p./</loc>
   </url>
   
 </urlset>
