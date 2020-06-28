@@ -126,7 +126,7 @@ The code above produces the following slides:
 Let’s add some style to the slides. We can add a background color, background image, or embed an html file as the background! Be aware of potential securtiy issues when embedding an external website - you should only do this if you trust the site! Here, I added different types of backgrounds on each slide, including image, video, html, and color:
 &lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre class=&#34;html&#34;&gt;&lt;code&gt;---
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;---
 output: 
   revealjs::revealjs_presentation:
     transition: default
@@ -312,7 +312,7 @@ Here’s an example where I used both custom CSS and a custom html header:
 &lt;p&gt;
 I added custom font from Google fonts by creating a new text file called header.html and adding this to the file:
 &lt;/p&gt;
-&lt;pre class=&#34;html&#34;&gt;&lt;code&gt;&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css2?family=Roboto:wght@900&amp;amp;display=swap&amp;quot; rel=&amp;quot;stylesheet&amp;quot;&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css2?family=Roboto:wght@900&amp;amp;display=swap&amp;quot; rel=&amp;quot;stylesheet&amp;quot;&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
 This is the Rmarkdown file I used to produce the slides below:
 &lt;/p&gt;

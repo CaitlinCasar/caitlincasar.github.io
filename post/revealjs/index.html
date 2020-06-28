@@ -276,10 +276,10 @@
   <meta property="twitter:creator" content="@DeepSubsurfer">
   
   <meta property="og:site_name" content="Caitlin Casar">
-  <meta property="og:url" content="/post/revealjs/">
+  <meta property="og:url" content="https://www.caitlincasar.com/post/revealjs/">
   <meta property="og:title" content="Making beautiful interactive slides with revealJS | Caitlin Casar">
-  <meta property="og:description" content="Today I’ll show you how to spice up your presentations with revealJS in R. This is an HTML presentation framework that allows you to share your slides on the web, add custom animations, embed websites into your slides, and more!"><meta property="og:image" content="/post/revealjs/featured.png">
-  <meta property="twitter:image" content="/post/revealjs/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Today I’ll show you how to spice up your presentations with revealJS in R. This is an HTML presentation framework that allows you to share your slides on the web, add custom animations, embed websites into your slides, and more!"><meta property="og:image" content="https://www.caitlincasar.com/post/revealjs/featured.png">
+  <meta property="twitter:image" content="https://www.caitlincasar.com/post/revealjs/featured.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2020-06-28T21:14:16-05:00">
@@ -809,7 +809,7 @@ The code above produces the following slides:
 Let’s add some style to the slides. We can add a background color, background image, or embed an html file as the background! Be aware of potential securtiy issues when embedding an external website - you should only do this if you trust the site! Here, I added different types of backgrounds on each slide, including image, video, html, and color:
 </p></li>
 </ol>
-<pre class="html"><code>---
+<pre class="r"><code>---
 output: 
   revealjs::revealjs_presentation:
     transition: default
@@ -995,7 +995,7 @@ Here’s an example where I used both custom CSS and a custom html header:
 <p>
 I added custom font from Google fonts by creating a new text file called header.html and adding this to the file:
 </p>
-<pre class="html"><code>&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Roboto:wght@900&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;</code></pre>
+<pre class="r"><code>&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Roboto:wght@900&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;</code></pre>
 <p>
 This is the Rmarkdown file I used to produce the slides below:
 </p>
