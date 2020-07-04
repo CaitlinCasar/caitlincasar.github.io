@@ -1,0 +1,1178 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Today we’re going on a Python adventure using Jupyter notebooks and PyCharm! First, let’s talk about what these are. Jupyter Notebook is a web application where you can create interactive coding documents, supporting many programming languages including both Python and R as well as Markdown.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/pycharm/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="rgba(255,202,51, 1)">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131131266-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-131131266-2', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu65d040ff31842b946eaf5b8caef82e07_3065_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu65d040ff31842b946eaf5b8caef82e07_3065_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/post/pycharm/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@DeepSubsurfer">
+  <meta property="twitter:creator" content="@DeepSubsurfer">
+  
+  <meta property="og:site_name" content="Caitlin Casar">
+  <meta property="og:url" content="/post/pycharm/">
+  <meta property="og:title" content="Jupyter notebooks in PyCharm | Caitlin Casar">
+  <meta property="og:description" content="Today we’re going on a Python adventure using Jupyter notebooks and PyCharm! First, let’s talk about what these are. Jupyter Notebook is a web application where you can create interactive coding documents, supporting many programming languages including both Python and R as well as Markdown."><meta property="og:image" content="/post/pycharm/featured.png">
+  <meta property="twitter:image" content="/post/pycharm/featured.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-07-03T21:14:16-05:00">
+    
+    <meta property="article:modified_time" content="2020-07-03T21:14:16-05:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/pycharm/"
+  },
+  "headline": "Jupyter notebooks in PyCharm",
+  
+  "image": [
+    "/post/pycharm/featured.png"
+  ],
+  
+  "datePublished": "2020-07-03T21:14:16-05:00",
+  "dateModified": "2020-07-03T21:14:16-05:00",
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Caitlin Casar",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/logo_hu72029ba191613179bebc9dcbb012e0bd_27617_192x192_fit_lanczos_2.png"
+    }
+  },
+  "description": "Today we’re going on a Python adventure using Jupyter notebooks and PyCharm! First, let’s talk about what these are. Jupyter Notebook is a web application where you can create interactive coding documents, supporting many programming languages including both Python and R as well as Markdown."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+<script>
+        var waitForPlotly = setInterval( function() {
+            if( typeof(window.Plotly) !== "undefined" ){
+                MathJax.Hub.Config({ SVG: { font: "STIX-Web" }, displayAlign: "center" });
+                MathJax.Hub.Queue(["setRenderer", MathJax.Hub, "SVG"]);
+                clearInterval(waitForPlotly);
+            }}, 250 );
+</script>
+
+
+
+  <title>Jupyter notebooks in PyCharm | Caitlin Casar</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/index.html"><img src="https://www.pizzanecklaces.com/wp-content/uploads/2019/12/split.gif" alt="Caitlin Casar">
+        <span class="text">Caitlin Casar</span>  
+        </a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Caitlin Casar</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/about/about/index.html"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/index.html#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/index.html#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/index.html#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/Casar_CV_May2020.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      <li class="nav-item">
+        <a href="https://www.buymeacoffee.com/aArveHBGx" target="_blank">
+          <i class="fas fa-coffee coffee"></i>
+        </a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector">
+          <i class="fas fa-moon js-set-theme-dark"></i>
+          <i class="fas fa-sun js-set-theme-light"></i>
+        </a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Jupyter notebooks in PyCharm</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jul 3, 2020
+  </span>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/python/">Python</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 450px;">
+  <div style="position: relative">
+    <img src="/post/pycharm/featured_hud57ad94822ceb22f2b96163f1c74d3f7_302181_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+
+<p>Today we’re going on a Python adventure using <a href="https://jupyter.org/" target="_blank">Jupyter</a> notebooks and <a href="https://www.jetbrains.com/pycharm/" target="_blank">PyCharm</a>! First, let’s talk about what these are. Jupyter Notebook is a web application where you can create interactive coding documents, supporting many programming languages including both Python and R as well as Markdown. PyCharm is an amazing IDE (interactive development environment) for Python that has tools and plugins to help you code more efficiently. You can develop your code both locally and remotely using PyCharm. First, let’s get set up!</p>
+<div id="getting-started-with-pycharm" class="section level2">
+<h2>Getting started with PyCharm</h2>
+<ol style="list-style-type: decimal">
+<li><p>
+Install <a href="https://www.jetbrains.com/pycharm/download/" target="_blank">PyCharm</a>.I highly recommend installing PyCharm Professional because you get more features like SciView that are awesome for data science. Plus PyCharm Professional is free for students!
+</p></li>
+<li><p>
+Install <a href="https://www.python.org/downloads/" target="_blank">Python</a> if you don’t already have it - you’ll need an interpreter in order to use PyCharm! Be aware that Python 2 and Python 3 are different in terms of syntax - don’t worry, you can load either version in PyCharm when you start a new project. If this is your first time developing in Python, I recommend going with the latest version 3.8.3.
+</p></li>
+<li><p>
+Create a new project in PyCharm and select your local Python interpreter. Here, I created a new project called ‘pycharm’ in a directory on my desktop and selected Python 3.7 as my interpreter.
+</p></li>
+</ol>
+<p><img class="post" src="images/new-project.png"></p>
+<ol start="4" style="list-style-type: decimal">
+<li><p>
+Install Jupyter by selecting PyCharm &gt;&gt; Preferences &gt;&gt; Project Interpreter, then click the “+” button to add new packages.
+</p></li>
+</ol>
+<p><img class="post" src="images/project-preferences.png"></p>
+<p>
+Then type ‘jupyter’ and select jupyter from the packages list. Then click the ‘Install Package’ button at the bottom of the window.
+</p>
+<p><img class="post" src="images/install-jupyter.png"></p>
+<ol start="5" style="list-style-type: decimal">
+<li><p>
+Create a new Jupyter notebook by navigating to File &gt;&gt; New… and selecting ‘Jupyter Notebook’. Alternatively, if you just want to create a Python script you can select ‘Python File’. Here, I created a new notebook called pycharm.ipynb.
+</p></li>
+</ol>
+<p><img class="post" src="images/new-notebook.png"></p>
+<ol start="6" style="list-style-type: decimal">
+<li><p>
+Let’s start editing our notebook by adding a Markdown cell. In the editor next to the ‘#%’, add ‘md’ to set the cell type to Markdown. Then use Markdown formatting, such as ‘### Header’ like in my example here. Notice that the right side panel displays a preview of your notebook.
+</p></li>
+</ol>
+<p><img class="post" src="images/markdown-cell.png"></p>
+<ol start="7" style="list-style-type: decimal">
+<li><p>
+Now let’s add a coding cell. Click the ‘+’ button just below the Markdown cell to add a new cell. Add your code and click the green arrow to run the code in the cell.
+<p></li>
+</ol>
+<p><img class="post" src="images/code-cell.png"></p>
+<p>
+Here I created and printed a variable called my_string.
+</p>
+<p><img class="post" src="images/my-string.png"></p>
+<ol start="8" style="list-style-type: decimal">
+<li><p>
+Let’s check out a cool feature of PyCharm Scientific View. Add the following to a code cell and run it:
+</p></li>
+</ol>
+<pre class="python"><code>import pandas as pd
+
+#read in data from my github repo
+data = pd.read_csv(&quot;https://raw.githubusercontent.com/CaitlinCasar/Casar2020_DeMMO_MineralHostedBiofilms/master/orig_data/site_geochem.csv&quot;)
+data.head()</code></pre>
+<ol start="9" style="list-style-type: decimal">
+<li><p>
+Next, open your Jupyter tab at the bottom of your PyCharm window, click on the variables tab, and right click on the new variable you just created called ‘data’. Select ‘View as Dataframe’, then click on the ‘SciView’ tab on the right panel.
+</p></li>
+</ol>
+<p><img class="post" src="images/view-dataframe.png"></p>
+<p>
+This is a great feature for viewing your stored variables. You can view both dataframes and arrays with SciView.
+</p>
+<p><img class="post" src="images/sciview.png"></p>
+<ol start="10" style="list-style-type: decimal">
+<li><p>
+Let’s try launching this notebook in our browser. Click on the text at the bottom of your PyCharm window that says “Jupyter Server started at <a href="http://localhost:8888//" class="uri">http://localhost:8888//</a> Open in Browser”. You should see an Event Log window pop up in the bottom right panel. Click on “Open in Browser” to launch your notebook in your web browser.
+</p></li>
+</ol>
+<p><img class="post" src="images/open-in-browser.png"></p>
+<p>
+You should now see something like this in your browser:
+</p>
+<p><img class="post" src="images/jupyter-web.png"></p>
+<p>
+Click on the notebook to run your code in the browser window. You can run cells by clicking the Run button in the top tool bar, or by clicking Ctrl + Enter.
+</p>
+<p><img class="post" src="images/interactive-code.png"></p>
+</div>
+<div id="sync-files-with-a-remote-server" class="section level2">
+<h2>Sync files with a remote server</h2>
+<ol style="list-style-type: decimal">
+<li><p>
+Let’s say you want to sync files on a remote server. You’ll need to set up your file transfer protocol. Select Tools &gt;&gt; Deployment &gt;&gt; Browse Remote Host. Then select your protocol - here I chose SFTP (secure file transfer protocol).
+</p></li>
+</ol>
+<p><img class="post" src="images/browse-remote-host.png">
+<img class="post" src="images/sftp.png"></p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>
+Next, configure your connection to the remote host by adding your IP address and log in credentials. Optionally, set your root path to the path on the remote server where you want to access files.
+</p></li>
+</ol>
+<p><img class="post" src="images/ssh-config.png"></p>
+<ol start="3" style="list-style-type: decimal">
+<li><p>
+Click on the Mapping tab and set your local path to your project directory in PyCharm. Set the deployment path to the directory on the remote server where you want to access or upload files.
+</p></li>
+</ol>
+<p><img class="post" src="images/mapping.png"></p>
+<ol start="3" style="list-style-type: decimal">
+<li><p>
+Sync your local directory with the remote directory by right-clicking on your project in the left panel, then select Deployment &gt;&gt; Sync with Deployed To…</li>
+</ol>
+<p><img class="post" src="images/sync.png"></p>
+<p>
+Then click the green double arrow button “Synchronize All” to sync your files. You can use the ‘Remote Host’ tab on the right panel to view your remote file tree.
+</p>
+</div>
+<div id="run-a-remote-jupyter-server-kernel" class="section level2">
+<h2>Run a remote Jupyter server kernel</h2>
+<p>
+If you want to run an interactive Jupyter notebook on a remote server in PyCharm, you’ll need to set up your Jupyter server configuration and remote Python interpreter.
+</p>
+<ol style="list-style-type: decimal">
+<li><p>
+In the terminal, SSH into your remote server, navigate to the directory where your data is, then launch a Jupyter notebook.
+</p></li>
+</ol>
+<p><img class="post" src="images/remote-server-ssh.png"></p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>
+Navigate to the directory where your data is located. Then launch a jupyter notebook by running the following:
+</p></li>
+</ol>
+<pre class="bash"><code>#replace port number with whatever port you want
+jupyter notebook --port=8899 --no-browser</code></pre>
+<p>
+This will return a url and token, similar to:
+</p>
+<pre class="bash"><code>https://my-notebook/tree/?token=abcdef...</code></pre>
+<p>
+Copy this entire url and token. Make sure you copy it all from one line - I have to make my terminal full screen for this. Otherwise you might get a weird line break and your url/token might not work.
+</p>
+<ol start="3" style="list-style-type: decimal">
+<li><p>
+Open a new Jupyter notebook file and select ‘Configure jupyter server…’.
+</p></li>
+</ol>
+<p><img class="post" src="images/configure-jupyter-server.png"></p>
+<p>
+Paste your url and token in the field for ‘Configured Server’. Then click ‘Apply’.
+</p>
+<p><img class="post" src="images/configured-server.png"></p>
+<ol start="4" style="list-style-type: decimal">
+<li><p>
+You should now be able to access data on the remote server in your Jupyter notebook. Here, I cloned my repo on the remote server, and I’m accessing a csv file with the pandas library.
+</p></li>
+</ol>
+<p><img class="post" src="images/remote-data.png"></p>
+<ol start="5" style="list-style-type: decimal">
+<li><p>
+If you want to use an interpreter on the remote server, you can figure the interpreter by naviating to Pycharm &gt;&gt; Preferences &gt;&gt; Project Interpreter…, then select the wheel button next to your current interpreter and select ‘Add…’. Then select ‘SSH interpreter’ and choose ‘Existing server configuration’. From the dropdown menu, select the SSH configuration that you set up in step 2 of the ‘Sync files with a remote server’ above.
+</p></li>
+</ol>
+<p><img class="post" src="images/remote-interpreter.png"></p>
+<p>
+<strong>Note:</strong>Unfortunately, you cannot view your variables while using a remote Jupyter server kernel as documented <a href="https://www.jetbrains.com/help/pycharm/running-jupyter-notebook-cells.html#variables" target="_blank">here</a>.
+</p>
+<p>
+Congrats on developing in Jupyter Notebooks and PyCharm! I hope you enjoyed this tutorial, feel free to comment below with any comments/questions! 😎
+</p>
+</div>
+
+    </div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/jupyter/">Jupyter</a>
+  
+  <a class="badge badge-light" href="/tag/pycharm/">PyCharm</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+    
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/author/avatar_hu22b40f80507c44dce75a10e55d535ea1_60925_270x270_fill_q90_lanczos_center.jpg" alt="">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="/"></a></h5>
+        
+        
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/DeepSubsurfer" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?hl=en&amp;user=z1eLutEAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/caitlincasar" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+<section id="comments">
+  
+    <div id="commento"></div>
+
+<script src="https://cdn.commento.io/js/commento.js" defer></script>
+
+  
+</section>
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+
+
+ 
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

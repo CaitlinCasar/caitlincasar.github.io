@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PyCharm | Caitlin Casar</title>
+    <link>/tag/pycharm/</link>
+      <atom:link href="/tag/pycharm/index.xml" rel="self" type="application/rss+xml" />
+    <description>PyCharm</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 Jul 2020 21:14:16 -0500</lastBuildDate>
+    <image>
+      <url>/img/avatar.jpg</url>
+      <title>PyCharm</title>
+      <link>/tag/pycharm/</link>
+    </image>
+    
+    <item>
+      <title>Jupyter notebooks in PyCharm</title>
+      <link>/post/pycharm/</link>
+      <pubDate>Fri, 03 Jul 2020 21:14:16 -0500</pubDate>
+      <guid>/post/pycharm/</guid>
+      <description>
+
+
+&lt;p&gt;Today we’re going on a Python adventure using &lt;a href=&#34;https://jupyter.org/&#34; target=&#34;_blank&#34;&gt;Jupyter&lt;/a&gt; notebooks and &lt;a href=&#34;https://www.jetbrains.com/pycharm/&#34; target=&#34;_blank&#34;&gt;PyCharm&lt;/a&gt;! First, let’s talk about what these are. Jupyter Notebook is a web application where you can create interactive coding documents, supporting many programming languages including both Python and R as well as Markdown. PyCharm is an amazing IDE (interactive development environment) for Python that has tools and plugins to help you code more efficiently. You can develop your code both locally and remotely using PyCharm. First, let’s get set up!&lt;/p&gt;
+&lt;div id=&#34;getting-started-with-pycharm&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Getting started with PyCharm&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;
+Install &lt;a href=&#34;https://www.jetbrains.com/pycharm/download/&#34; target=&#34;_blank&#34;&gt;PyCharm&lt;/a&gt;.I highly recommend installing PyCharm Professional because you get more features like SciView that are awesome for data science. Plus PyCharm Professional is free for students!
+&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;
+Install &lt;a href=&#34;https://www.python.org/downloads/&#34; target=&#34;_blank&#34;&gt;Python&lt;/a&gt; if you don’t already have it - you’ll need an interpreter in order to use PyCharm! Be aware that Python 2 and Python 3 are different in terms of syntax - don’t worry, you can load either version in PyCharm when you start a new project. If this is your first time developing in Python, I recommend going with the latest version 3.8.3.
+&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;
+Create a new project in PyCharm and select your local Python interpreter. Here, I created a new project called ‘pycharm’ in a directory on my desktop and selected Python 3.7 as my interpreter.
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/new-project.png&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;
+Install Jupyter by selecting PyCharm &amp;gt;&amp;gt; Preferences &amp;gt;&amp;gt; Project Interpreter, then click the “+” button to add new packages.
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/project-preferences.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+Then type ‘jupyter’ and select jupyter from the packages list. Then click the ‘Install Package’ button at the bottom of the window.
+&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/install-jupyter.png&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;
+Create a new Jupyter notebook by navigating to File &amp;gt;&amp;gt; New… and selecting ‘Jupyter Notebook’. Alternatively, if you just want to create a Python script you can select ‘Python File’. Here, I created a new notebook called pycharm.ipynb.
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/new-notebook.png&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;6&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;
+Let’s start editing our notebook by adding a Markdown cell. In the editor next to the ‘#%’, add ‘md’ to set the cell type to Markdown. Then use Markdown formatting, such as ‘### Header’ like in my example here. Notice that the right side panel displays a preview of your notebook.
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/markdown-cell.png&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;7&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;
+Now let’s add a coding cell. Click the ‘+’ button just below the Markdown cell to add a new cell. Add your code and click the green arrow to run the code in the cell.
+&lt;p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/code-cell.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+Here I created and printed a variable called my_string.
+&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/my-string.png&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;8&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;
+Let’s check out a cool feature of PyCharm Scientific View. Add the following to a code cell and run it:
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;python&#34;&gt;&lt;code&gt;import pandas as pd
+
+#read in data from my github repo
+data = pd.read_csv(&amp;quot;https://raw.githubusercontent.com/CaitlinCasar/Casar2020_DeMMO_MineralHostedBiofilms/master/orig_data/site_geochem.csv&amp;quot;)
+data.head()&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;9&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;
+Next, open your Jupyter tab at the bottom of your PyCharm window, click on the variables tab, and right click on the new variable you just created called ‘data’. Select ‘View as Dataframe’, then click on the ‘SciView’ tab on the right panel.
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/view-dataframe.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+This is a great feature for viewing your stored variables. You can view both dataframes and arrays with SciView.
+&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/sciview.png&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;10&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;
+Let’s try launching this notebook in our browser. Click on the text at the bottom of your PyCharm window that says “Jupyter Server started at &lt;a href=&#34;http://localhost:8888//&#34; class=&#34;uri&#34;&gt;http://localhost:8888//&lt;/a&gt; Open in Browser”. You should see an Event Log window pop up in the bottom right panel. Click on “Open in Browser” to launch your notebook in your web browser.
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/open-in-browser.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+You should now see something like this in your browser:
+&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/jupyter-web.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+Click on the notebook to run your code in the browser window. You can run cells by clicking the Run button in the top tool bar, or by clicking Ctrl + Enter.
+&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/interactive-code.png&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;sync-files-with-a-remote-server&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Sync files with a remote server&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;
+Let’s say you want to sync files on a remote server. You’ll need to set up your file transfer protocol. Select Tools &amp;gt;&amp;gt; Deployment &amp;gt;&amp;gt; Browse Remote Host. Then select your protocol - here I chose SFTP (secure file transfer protocol).
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/browse-remote-host.png&#34;&gt;
+&lt;img class=&#34;post&#34; src=&#34;images/sftp.png&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;
+Next, configure your connection to the remote host by adding your IP address and log in credentials. Optionally, set your root path to the path on the remote server where you want to access files.
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/ssh-config.png&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;
+Click on the Mapping tab and set your local path to your project directory in PyCharm. Set the deployment path to the directory on the remote server where you want to access or upload files.
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/mapping.png&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;
+Sync your local directory with the remote directory by right-clicking on your project in the left panel, then select Deployment &amp;gt;&amp;gt; Sync with Deployed To…&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/sync.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+Then click the green double arrow button “Synchronize All” to sync your files. You can use the ‘Remote Host’ tab on the right panel to view your remote file tree.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;run-a-remote-jupyter-server-kernel&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Run a remote Jupyter server kernel&lt;/h2&gt;
+&lt;p&gt;
+If you want to run an interactive Jupyter notebook on a remote server in PyCharm, you’ll need to set up your Jupyter server configuration and remote Python interpreter.
+&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;
+In the terminal, SSH into your remote server, navigate to the directory where your data is, then launch a Jupyter notebook.
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/remote-server-ssh.png&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;
+Navigate to the directory where your data is located. Then launch a jupyter notebook by running the following:
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;bash&#34;&gt;&lt;code&gt;#replace port number with whatever port you want
+jupyter notebook --port=8899 --no-browser&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+This will return a url and token, similar to:
+&lt;/p&gt;
+&lt;pre class=&#34;bash&#34;&gt;&lt;code&gt;https://my-notebook/tree/?token=abcdef...&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+Copy this entire url and token. Make sure you copy it all from one line - I have to make my terminal full screen for this. Otherwise you might get a weird line break and your url/token might not work.
+&lt;/p&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;
+Open a new Jupyter notebook file and select ‘Configure jupyter server…’.
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/configure-jupyter-server.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+Paste your url and token in the field for ‘Configured Server’. Then click ‘Apply’.
+&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/configured-server.png&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;
+You should now be able to access data on the remote server in your Jupyter notebook. Here, I cloned my repo on the remote server, and I’m accessing a csv file with the pandas library.
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/remote-data.png&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;
+If you want to use an interpreter on the remote server, you can figure the interpreter by naviating to Pycharm &amp;gt;&amp;gt; Preferences &amp;gt;&amp;gt; Project Interpreter…, then select the wheel button next to your current interpreter and select ‘Add…’. Then select ‘SSH interpreter’ and choose ‘Existing server configuration’. From the dropdown menu, select the SSH configuration that you set up in step 2 of the ‘Sync files with a remote server’ above.
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img class=&#34;post&#34; src=&#34;images/remote-interpreter.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Note:&lt;/strong&gt;Unfortunately, you cannot view your variables while using a remote Jupyter server kernel as documented &lt;a href=&#34;https://www.jetbrains.com/help/pycharm/running-jupyter-notebook-cells.html#variables&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Congrats on developing in Jupyter Notebooks and PyCharm! I hope you enjoyed this tutorial, feel free to comment below with any comments/questions! 😎
+&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
