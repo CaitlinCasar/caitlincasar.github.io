@@ -5,12 +5,67 @@
     <link>https://www.caitlincasar.com/post/</link>
       <atom:link href="https://www.caitlincasar.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 Jul 2020 21:12:16 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 04 Jul 2020 21:12:16 -0500</lastBuildDate>
     <image>
       <url>https://www.caitlincasar.com/img/avatar.jpg</url>
       <title>Posts</title>
       <link>https://www.caitlincasar.com/post/</link>
     </image>
+    
+    <item>
+      <title>10 Cool things you can do with Jupyter</title>
+      <link>https://www.caitlincasar.com/post/jupyter/</link>
+      <pubDate>Sat, 04 Jul 2020 21:12:16 -0500</pubDate>
+      <guid>https://www.caitlincasar.com/post/jupyter/</guid>
+      <description>
+
+
+&lt;p&gt;Today I’m sharing my top 10 list of cool things you can do in &lt;a href=&#34;https://jupyter.org/&#34; target=&#34;_blank&#34;&gt;Jupyter&lt;/a&gt; notebooks!&lt;/p&gt;
+&lt;div id=&#34;jupyter-notebook-extensions&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;1. Jupyter notebook extensions&lt;/h1&gt;
+&lt;p&gt;
+You can add functionality to your Jupyter notebook with &lt;a href=&#34;https://github.com/ipython-contrib/jupyter_contrib_nbextensions&#34; target=&#34;_blank&#34;&gt;Jupyter Notebook Extensions&lt;/a&gt;! To install Jupyter Notebook Extensions, run the following in your terminal:
+&lt;/p&gt;
+&lt;pre class=&#34;bash&#34;&gt;&lt;code&gt;pip install jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
+jupyter nbextensions_configurator enable --user&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; compatability issue with newest version of Jupyter Notebook &lt;a href=&#34;https://stackoverflow.com/questions/58146683/all-jupyter-contrib-nbextensions-are-marked-as-possibly-incompatible&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/toc2/README.html#&#34; target=&#34;_blank&#34;&gt;Table of Contents (2)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/collapsible_headings/readme.html&#34; target=&#34;_blank&#34;&gt;Collapsible Headings&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;plotly-for-interactive-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;2. Plotly for interactive plots&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div id=&#34;magics&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;3. Magics&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div id=&#34;widgets&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;4. Widgets&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div id=&#34;nbconvert&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;5. nbconvert&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/jump-out-of-the-jupyter-notebook-with-nbconvert-7d4748960702&#34; class=&#34;uri&#34;&gt;https://towardsdatascience.com/jump-out-of-the-jupyter-notebook-with-nbconvert-7d4748960702&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;color-themes&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;6. Color Themes&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/dunovank/jupyter-themes&#34; target=&#34;_blank&#34;&gt;jupyter-themes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://darkreader.org/&#34; target=&#34;_blank&#34;&gt;Dark Reader&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;plotly-for-interactive-plots-1&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;7. Plotly for interactive plots&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div id=&#34;plotly-for-interactive-plots-2&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;8. Plotly for interactive plots&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div id=&#34;plotly-for-interactive-plots-3&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;9. Plotly for interactive plots&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div id=&#34;plotly-for-interactive-plots-4&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;10. Plotly for interactive plots&lt;/h1&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Jupyter notebooks in PyCharm</title>
