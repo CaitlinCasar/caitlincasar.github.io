@@ -5,12 +5,20 @@
     <link>https://www.caitlincasar.com/publication/</link>
       <atom:link href="https://www.caitlincasar.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.caitlincasar.com/img/avatar.jpg</url>
       <title>Publications</title>
       <link>https://www.caitlincasar.com/publication/</link>
     </image>
+    
+    <item>
+      <title>Electrochemical evidence for in situ microbial activity at the Deep Mine Microbial Observatory (DeMMO), South Dakota, USA</title>
+      <link>https://www.caitlincasar.com/publication/rowe2020/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.caitlincasar.com/publication/rowe2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Mineral‐hosted biofilm communities in the continental deep subsurface, Deep Mine Microbial Observatory, SD, USA</title>
