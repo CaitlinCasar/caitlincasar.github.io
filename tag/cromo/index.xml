@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CROMO | Caitlin Casar</title>
-    <link>https://www.caitlincasar.com/tag/cromo/</link>
-      <atom:link href="https://www.caitlincasar.com/tag/cromo/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/cromo/</link>
+      <atom:link href="/tag/cromo/index.xml" rel="self" type="application/rss+xml" />
     <description>CROMO</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Feb 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.caitlincasar.com/img/avatar.jpg</url>
+      <url>/img/avatar.jpg</url>
       <title>CROMO</title>
-      <link>https://www.caitlincasar.com/tag/cromo/</link>
+      <link>/tag/cromo/</link>
     </image>
     
     <item>
       <title>Biofilm Formation and Potential for Iron Cycling in Serpentinization-Influenced Groundwater of the Zambales and Coast Range Ophiolites</title>
-      <link>https://www.caitlincasar.com/publication/meyer-dombard2018/</link>
+      <link>/publication/meyer-dombard2018/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>https://www.caitlincasar.com/publication/meyer-dombard2018/</guid>
+      <guid>/publication/meyer-dombard2018/</guid>
       <description></description>
     </item>
     
