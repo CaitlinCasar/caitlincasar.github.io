@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geochemistry | Caitlin Casar</title>
-    <link>/tag/geochemistry/</link>
-      <atom:link href="/tag/geochemistry/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.caitlincasar.com/tag/geochemistry/</link>
+      <atom:link href="https://www.caitlincasar.com/tag/geochemistry/index.xml" rel="self" type="application/rss+xml" />
     <description>Geochemistry</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpg</url>
+      <url>https://www.caitlincasar.com/img/avatar.jpg</url>
       <title>Geochemistry</title>
-      <link>/tag/geochemistry/</link>
+      <link>https://www.caitlincasar.com/tag/geochemistry/</link>
     </image>
     
     <item>
       <title>Establishment of the Deep Mine Microbial Observatory (DeMMO), South Dakota, USA, a Geochemically Stable Portal Into the Deep Subsurface</title>
-      <link>/publication/osburn2019/</link>
+      <link>https://www.caitlincasar.com/publication/osburn2019/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/osburn2019/</guid>
+      <guid>https://www.caitlincasar.com/publication/osburn2019/</guid>
       <description></description>
     </item>
     
