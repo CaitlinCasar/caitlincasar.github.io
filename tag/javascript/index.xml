@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>javascript | Caitlin Casar</title>
-    <link>https://www.caitlincasar.com/tag/javascript/</link>
-      <atom:link href="https://www.caitlincasar.com/tag/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/javascript/</link>
+      <atom:link href="/tag/javascript/index.xml" rel="self" type="application/rss+xml" />
     <description>javascript</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.caitlincasar.com/img/avatar.jpg</url>
+      <url>/img/avatar.jpg</url>
       <title>javascript</title>
-      <link>https://www.caitlincasar.com/tag/javascript/</link>
+      <link>/tag/javascript/</link>
     </image>
     
     <item>
       <title>Making beautiful interactive slides with revealJS</title>
-      <link>https://www.caitlincasar.com/post/revealjs/</link>
+      <link>/post/revealjs/</link>
       <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.caitlincasar.com/post/revealjs/</guid>
+      <guid>/post/revealjs/</guid>
       <description>
 
 
