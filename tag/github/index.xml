@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>github | Caitlin Casar</title>
-    <link>https://www.caitlincasar.com/tag/github/</link>
-      <atom:link href="https://www.caitlincasar.com/tag/github/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/github/</link>
+      <atom:link href="/tag/github/index.xml" rel="self" type="application/rss+xml" />
     <description>github</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 09 Jun 2020 21:14:16 -0500</lastBuildDate>
     <image>
-      <url>https://www.caitlincasar.com/img/avatar.jpg</url>
+      <url>/img/avatar.jpg</url>
       <title>github</title>
-      <link>https://www.caitlincasar.com/tag/github/</link>
+      <link>/tag/github/</link>
     </image>
     
     <item>
       <title>Create your own site with blogdown in R</title>
-      <link>https://www.caitlincasar.com/post/blogdown/</link>
+      <link>/post/blogdown/</link>
       <pubDate>Tue, 09 Jun 2020 21:14:16 -0500</pubDate>
-      <guid>https://www.caitlincasar.com/post/blogdown/</guid>
+      <guid>/post/blogdown/</guid>
       <description>
 
 

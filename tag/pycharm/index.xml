@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PyCharm | Caitlin Casar</title>
-    <link>https://www.caitlincasar.com/tag/pycharm/</link>
-      <atom:link href="https://www.caitlincasar.com/tag/pycharm/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/pycharm/</link>
+      <atom:link href="/tag/pycharm/index.xml" rel="self" type="application/rss+xml" />
     <description>PyCharm</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 Jul 2020 21:12:16 -0500</lastBuildDate>
     <image>
-      <url>https://www.caitlincasar.com/img/avatar.jpg</url>
+      <url>/img/avatar.jpg</url>
       <title>PyCharm</title>
-      <link>https://www.caitlincasar.com/tag/pycharm/</link>
+      <link>/tag/pycharm/</link>
     </image>
     
     <item>
       <title>Jupyter notebooks in PyCharm</title>
-      <link>https://www.caitlincasar.com/post/pycharm/</link>
+      <link>/post/pycharm/</link>
       <pubDate>Fri, 03 Jul 2020 21:12:16 -0500</pubDate>
-      <guid>https://www.caitlincasar.com/post/pycharm/</guid>
+      <guid>/post/pycharm/</guid>
       <description>
 
 
