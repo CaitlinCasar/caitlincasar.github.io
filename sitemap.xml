@@ -22,6 +22,46 @@
   </url>
   
   <url>
+    <loc>/publication-type/2/</loc>
+    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/astrobiology/</loc>
+    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/biofilms/</loc>
+    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/geobiology/</loc>
+    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/casar2021/</loc>
+    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tag/adobe/</loc>
     <lastmod>2021-02-13T21:12:16-05:00</lastmod>
   </url>
@@ -47,47 +87,12 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2021-02-13T21:12:16-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/greenscreen/</loc>
     <lastmod>2021-02-13T21:12:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication-type/2/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/astrobiology/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/biofilms/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/rowe2020/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/geobiology/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -290,6 +295,10 @@
   
   <url>
     <loc>/author/casar-c.-p.-kruger-b.-k.-flynn-t.-m.-masterson-a.-l.-momper-l.-m.-osburn-m.-r./</loc>
+  </url>
+  
+  <url>
+    <loc>/author/casar-c.-p.-kruger-b.-k.-osburn-m.-r./</loc>
   </url>
   
   <url>

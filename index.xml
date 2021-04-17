@@ -35,6 +35,16 @@
     </item>
     
     <item>
+      <title>Rock-Hosted Subsurface Biofilms: Mineral Selectivity Drives Hotspots for Intraterrestrial Life</title>
+      <link>/publication/casar2021/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/casar2021/</guid>
+      <description>&lt;p&gt;Supplementary 
+&lt;a href=&#34;https://github.com/CaitlinCasar/Casar2021_DeMMO_RockHostedBiofilms&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Using a Green Screen in Premiere Pro</title>
       <link>/post/greenscreen/</link>
       <pubDate>Sat, 13 Feb 2021 21:12:16 -0500</pubDate>
@@ -1461,7 +1471,7 @@ Three
 &lt;div class=&#34;horizontal_line&#34;&gt;
 
 &lt;/div&gt;
-&lt;p&gt;🎓 PhD Candidate Earth and Planetary Sciences (defending April 2021), Northwestern University&lt;br&gt;
+&lt;p&gt;🎓 PhD Earth and Planetary Sciences (2021), Northwestern University&lt;br&gt;
 🎓 M.S. Earth and Planetary Sciences (2018), Northwestern University&lt;br&gt;
 🎓 M.S. Earth and Environmental Sciences (2015), University of Illinois at Chicago&lt;br&gt;
 🎓 B.S. Geology (2012), East Carolina University&lt;br&gt;&lt;/p&gt;
@@ -1555,6 +1565,11 @@ Three
 &lt;ul class=&#34;gray-bullets&#34;&gt;
 &lt;li&gt;
 &lt;span&gt;
+&lt;a href=&#34;https://www.frontiersin.org/articles/10.3389/fmicb.2021.658988/full&#34; target=&#34;_blank&#34;&gt;2021 Casar, C. P., Kruger, B. K., Osburn, M. R.&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span&gt;
 &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/full/10.1111/gbi.12420&#34; target=&#34;_blank&#34;&gt;2020 Rowe, A. R., Abuyen, K., Lam, B. R., Kruger, B. K., Casar, C. P., Osburn, M. R., El-Naggar, M. Y., Amend, J. P.&lt;/a&gt;
 &lt;/span&gt;
 &lt;/li&gt;
@@ -1583,6 +1598,11 @@ Three
 
 &lt;/div&gt;
 &lt;ul class=&#34;gray-bullets&#34;&gt;
+&lt;li&gt;
+&lt;span&gt;
+&lt;a href=&#34;https://blog.frontiersin.org/2021/04/09/earths-crust-mineralogy-drives-hotspots-for-intraterrestrial-life/&#34; target=&#34;_blank&#34;&gt;2021 Frontiers Science News&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;
 &lt;span&gt;
 &lt;a href=&#34;https://www.c2st.org/subsurface-biofilms-could-hold-clues-to-alien-life-astrobiologists-say/&#34; target=&#34;_blank&#34;&gt;2019 Chicago Council on Science and Technology&lt;/a&gt;
@@ -1616,12 +1636,6 @@ Three
 &lt;a href=&#34;https://demmo.org/&#34; target=&#34;_blank&#34; style=&#34;font-size: 16px;&#34;&gt;DeMMO Website&lt;/a&gt;
 &lt;/span&gt;
 &lt;/li&gt;
-&lt;span&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://deepminemicrobialobservatory.com/shiny/DeMMO_Geochem/&#34; target=&#34;_blank&#34; style=&#34;font-size: 16px;&#34;&gt;DeMMO Shiny App&lt;/a&gt;
-&lt;/span&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;/div&gt;
 </description>
     </item>
