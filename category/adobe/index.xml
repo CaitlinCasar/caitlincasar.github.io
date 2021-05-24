@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adobe | Caitlin Casar</title>
-    <link>/category/adobe/</link>
-      <atom:link href="/category/adobe/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.caitlincasar.com/category/adobe/</link>
+      <atom:link href="https://www.caitlincasar.com/category/adobe/index.xml" rel="self" type="application/rss+xml" />
     <description>Adobe</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 13 Feb 2021 21:12:16 -0500</lastBuildDate>
     <image>
-      <url>/img/avatar.jpg</url>
+      <url>https://www.caitlincasar.com/img/avatar.jpg</url>
       <title>Adobe</title>
-      <link>/category/adobe/</link>
+      <link>https://www.caitlincasar.com/category/adobe/</link>
     </image>
     
     <item>
       <title>Using a Green Screen in Premiere Pro</title>
-      <link>/post/greenscreen/</link>
+      <link>https://www.caitlincasar.com/post/greenscreen/</link>
       <pubDate>Sat, 13 Feb 2021 21:12:16 -0500</pubDate>
-      <guid>/post/greenscreen/</guid>
+      <guid>https://www.caitlincasar.com/post/greenscreen/</guid>
       <description>
 
 

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Caitlin Casar</title>
-    <link>/author/</link>
-      <atom:link href="/author/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.caitlincasar.com/author/</link>
+      <atom:link href="https://www.caitlincasar.com/author/index.xml" rel="self" type="application/rss+xml" />
     <description>Caitlin Casar</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/avatar.jpg</url>
+      <url>https://www.caitlincasar.com/img/avatar.jpg</url>
       <title>Caitlin Casar</title>
-      <link>/author/</link>
+      <link>https://www.caitlincasar.com/author/</link>
     </image>
     
   </channel>

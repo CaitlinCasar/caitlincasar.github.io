@@ -2,32 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hey, I&#39;m Caitlin | Caitlin Casar</title>
-    <link>/about/</link>
-      <atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.caitlincasar.com/about/</link>
+      <atom:link href="https://www.caitlincasar.com/about/index.xml" rel="self" type="application/rss+xml" />
     <description>Hey, I&#39;m Caitlin</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/avatar.jpg</url>
+      <url>https://www.caitlincasar.com/img/avatar.jpg</url>
       <title>Hey, I&#39;m Caitlin</title>
-      <link>/about/</link>
+      <link>https://www.caitlincasar.com/about/</link>
     </image>
     
     <item>
       <title>About me</title>
-      <link>/about/about/</link>
+      <link>https://www.caitlincasar.com/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/about/about/</guid>
+      <guid>https://www.caitlincasar.com/about/about/</guid>
       <description>
+&lt;script src=&#34;https://www.caitlincasar.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;p&gt;&lt;img alt=&#39;Caitlin&#39; width=300 style=&#39; border-radius: 50%;&#39; src=&#39;/about/avatar.jpg&#39; class=&#39;avatar-circle&#39; /&gt;&lt;/p&gt;
-&lt;p&gt;I’m Caitlin Casar, a PhD candidate insterested in astrobiology 👽 and data science 💾. I love coding, graphic design, and hanging out with my two cats, Creme Fraiche and Neko 🐱🐱.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#39;Caitlin&#39; width=300 style=&#39; border-radius: 50%;&#39; src=&#39;https://www.caitlincasar.com/about/avatar.jpg&#39; class=&#39;avatar-circle&#39; /&gt;&lt;/p&gt;
+&lt;p&gt;I’m Caitlin Casar, a data scientist 💾 interested in astrobiology 👽. I love coding, graphic design, and hanging out with my two cats, Creme Fraiche and Neko 🐱🐱.&lt;/p&gt;
 &lt;div id=&#34;education&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/h3&gt;
 &lt;div class=&#34;horizontal_line&#34;&gt;
 
 &lt;/div&gt;
-&lt;p&gt;🎓 PhD Earth and Planetary Sciences (2021), Northwestern University&lt;br&gt;
+&lt;p&gt;🎓 Ph.D. Earth and Planetary Sciences (2021), Northwestern University&lt;br&gt;
 🎓 M.S. Earth and Planetary Sciences (2018), Northwestern University&lt;br&gt;
 🎓 M.S. Earth and Environmental Sciences (2015), University of Illinois at Chicago&lt;br&gt;
 🎓 B.S. Geology (2012), East Carolina University&lt;br&gt;&lt;/p&gt;
@@ -45,12 +46,22 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;span&gt;
+&lt;a href=&#34;https://isgc.aerospace.illinois.edu/funding/graduate-fellowships/&#34; target=&#34;_blank&#34;&gt;2018 Illinois Space Grant Fellowship&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span&gt;
 &lt;a href=&#34;https://eaes.uic.edu/news-stories/caitlin-casar-receives-provost-s-award/&#34; &gt;2014 UIC Provost’s Award&lt;/a&gt;
 &lt;/span&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;span&gt;
 &lt;a href=&#34;&#34; &gt;2013 Knourek Scholarship&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span&gt;
+&lt;a href=&#34;https://nagt.org/nagt/students/usgs_field/11interns.html&#34; &gt;2011 NAGT Fellowship&lt;/a&gt;
 &lt;/span&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -131,8 +142,6 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;span&gt;
-&lt;li&gt;
-&lt;span&gt;
 &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1111/gbi.12391&#34; target=&#34;_blank&#34;&gt;2020 Casar, C. P., Kruger, B. K., Flynn, T. M., Masterson, A. L., Momper, L. M., Osburn, M. R.&lt;/a&gt;
 &lt;/span&gt;
 &lt;/li&gt;
@@ -154,6 +163,11 @@
 
 &lt;/div&gt;
 &lt;ul class=&#34;gray-bullets&#34;&gt;
+&lt;li&gt;
+&lt;span&gt;
+&lt;a href=&#34;https://www.cell.com/current-biology/fulltext/S0960-9822%2821%2900594-7&#34; target=&#34;_blank&#34;&gt;2021 Life Underground by Michael Gross&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;
 &lt;span&gt;
 &lt;a href=&#34;https://blog.frontiersin.org/2021/04/09/earths-crust-mineralogy-drives-hotspots-for-intraterrestrial-life/&#34; target=&#34;_blank&#34;&gt;2021 Frontiers Science News&lt;/a&gt;
