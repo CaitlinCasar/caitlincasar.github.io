@@ -5,12 +5,22 @@
     <link>https://www.caitlincasar.com/publication/</link>
       <atom:link href="https://www.caitlincasar.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.caitlincasar.com/img/avatar.jpg</url>
       <title>Publications</title>
       <link>https://www.caitlincasar.com/publication/</link>
     </image>
+    
+    <item>
+      <title>Iron-Fueled Life in the Continental Subsurface: Deep Mine Microbial Observatory, South Dakota, USA</title>
+      <link>https://www.caitlincasar.com/publication/casar2021_aem/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.caitlincasar.com/publication/casar2021_aem/</guid>
+      <description>&lt;p&gt;Supplementary 
+&lt;a href=&#34;https://github.com/CaitlinCasar/Casar2021_DeMMO_IronFueledLife&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Rock-Hosted Subsurface Biofilms: Mineral Selectivity Drives Hotspots for Intraterrestrial Life</title>

@@ -21,8 +21,8 @@
 &lt;script src=&#34;https://www.caitlincasar.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;p&gt;&lt;img alt=&#39;Caitlin&#39; width=300 style=&#39; border-radius: 50%;&#39; src=&#39;https://www.caitlincasar.com/about/avatar.jpg&#39; class=&#39;avatar-circle&#39; /&gt;&lt;/p&gt;
-&lt;p&gt;I’m Caitlin Casar, a data scientist 💾 interested in astrobiology 👽. I love coding, graphic design, and hanging out with my two cats, Creme Fraiche and Neko 🐱🐱.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#39;Caitlin&#39; width=300 style=&#39; border-radius: 50%;&#39; src=&#39;https://www.caitlincasar.com/about/avatar.jpeg&#39; class=&#39;avatar-circle&#39; /&gt;&lt;/p&gt;
+&lt;p&gt;I’m Caitlin Casar, a data engineer 💾 and astrobiology connoisseur 👽. I love coding, graphic design, and hanging out with my two cats, Creme Fraiche and Neko 🐱🐱.&lt;/p&gt;
 &lt;div id=&#34;education&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/h3&gt;
 &lt;div class=&#34;horizontal_line&#34;&gt;
@@ -39,6 +39,11 @@
 
 &lt;/div&gt;
 &lt;ul class=&#34;gray-bullets&#34;&gt;
+&lt;li&gt;
+&lt;span&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=FyZVmyG-B8I&#34; target=&#34;_blank&#34;&gt;2021 Horace A. Scott Graduate Award for Outstanding Research&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;
 &lt;span&gt;
 &lt;a href=&#34;https://www.earth.northwestern.edu/about/news/2017-2018/phd-candidate-caitlin-casar-wins-nasa-earth-space-science-fellowship.html&#34; target=&#34;_blank&#34;&gt;2018 NASA Earth and Space Science Fellowship&lt;/a&gt;
@@ -132,12 +137,22 @@
 &lt;ul class=&#34;gray-bullets&#34;&gt;
 &lt;li&gt;
 &lt;span&gt;
+&lt;a href=&#34;https://journals.asm.org/doi/full/10.1128/AEM.00832-21&#34; target=&#34;_blank&#34;&gt;2021 Casar, C. P., Momper, L. M., Osburn, M. R.&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span&gt;
 &lt;a href=&#34;https://www.frontiersin.org/articles/10.3389/fmicb.2021.658988/full&#34; target=&#34;_blank&#34;&gt;2021 Casar, C. P., Kruger, B. K., Osburn, M. R.&lt;/a&gt;
 &lt;/span&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;span&gt;
 &lt;a href=&#34;https://www.biorxiv.org/content/10.1101/2021.05.06.442964v1&#34; target=&#34;_blank&#34;&gt;2021 Momper, L. M., Casar, C. P., Osburn, M. R.&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span&gt;
+&lt;a href=&#34;https://www.proquest.com/openview/a08a3b5d2880223fd32ca0b7da0f82d0/1?pq-origsite=gscholar&amp;cbl=18750&amp;diss=y&#34; target=&#34;_blank&#34;&gt;2021 Casar, C. P.&lt;/a&gt;
 &lt;/span&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -160,6 +175,11 @@
 &lt;a href=&#34;https://digitaledition.chicagotribune.com/tribune/article_popover.aspx?guid=287013fd-b644-40f1-9d3b-790798d67174&#34; target=&#34;_blank&#34;&gt;2018 Meyer-Dombard, D. R., Casar, C. P., Simon, A. G., Cardace, D., Schrenk, M. O., Arcilla, C. A.&lt;/a&gt;
 &lt;/span&gt;
 &lt;/li&gt;
+&lt;li&gt;
+&lt;span&gt;
+&lt;a href=&#34;https://indigo.uic.edu/articles/thesis/Geobiology_of_the_Zambales_Ophiolite_Philippines_and_Coast_Range_Ophiolite_California/10880495&#34; target=&#34;_blank&#34;&gt;2015 Casar, C. P.&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div id=&#34;press&#34; class=&#34;section level3&#34;&gt;
@@ -168,6 +188,11 @@
 
 &lt;/div&gt;
 &lt;ul class=&#34;gray-bullets&#34;&gt;
+&lt;li&gt;
+&lt;span&gt;
+&lt;a href=&#34;https://www.insidescience.org/news/life-lava-caves-ignores-food-surface-eats-rock-instead&#34; target=&#34;_blank&#34;&gt;2021 Inside Science&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;
 &lt;span&gt;
 &lt;a href=&#34;https://www.cell.com/current-biology/fulltext/S0960-9822%2821%2900594-7&#34; target=&#34;_blank&#34;&gt;2021 Life Underground by Michael Gross&lt;/a&gt;
